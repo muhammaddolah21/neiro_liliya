@@ -1,0 +1,51 @@
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+ipython_config.py
+
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Data and models
+*.bin
+*.pt
+*.ckpt
+*.h5
+*.tar.gz
+*.zip
+*.tar
+*.npz
+*.npy
+*.pkl
+*.model
+*.weights
+*.onnx
+*.pb
+*.log
+*.csv
+*.tsv
+*.jsonl
+*.cache
+
+# Large folders
+unilm_pretrained/
+data/
+models/
+
+# Git
+*.orig
+
+# Ignore embedded git repos
+apex/
